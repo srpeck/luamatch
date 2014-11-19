@@ -1,0 +1,6 @@
+Lua game server/Love2D client implementation of the game in https://github.com/srpeck/match, with real-time server/client networked multiplayer over UDP using LuaSocket, collision detection, and fog of war.
+
+Requires Lua and LuaSocket (http://www.lua.org/ and http://w3.impa.br/~diego/software/luasocket/ or https://code.google.com/p/luaforwindows/) for the server and Love2D (http://love2d.org/) for the client.
+1. Run server.lua to start the server
+2. Run client.love to start the client, WASD or arrow keys to move around
+3. Repeat #2 for additional clients
